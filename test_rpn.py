@@ -2,6 +2,7 @@ import unittest
 
 import rpn
 
+#testing function to see if rpn calculator has basic functionality
 class TestBasics(unittest.TestCase):
     def test_add(self):
         result = rpn.calculate("1 1 +")
